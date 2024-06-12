@@ -108,7 +108,7 @@ const ChatContent = () => {
   };
 
   return (
-    <div className="flex-1 flex flex-col overflow-scroll relative overflow-x-hidden ">
+    <div className="flex-1 flex flex-col overflow-scroll overflow-y-hidden relative overflow-x-hidden ">
       <DeleteAlert />
       <EditAlert />
       <div className="flex flex-1"></div>
